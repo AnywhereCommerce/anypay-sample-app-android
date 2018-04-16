@@ -1,0 +1,77 @@
+<TerminalConfiguration>
+    <ID>fdfdbf9d-faf1-4326-bf03-f5de5db01533</ID>
+    <AuthCaptureEnabled>false</AuthCaptureEnabled>
+    <AuthCaptureEnabledEditable>true</AuthCaptureEnabledEditable>
+    <AuthSurchargeAmount>21</AuthSurchargeAmount>
+    <AuthSurchargeEditable>false</AuthSurchargeEditable>
+    <AuthSurchargeEnabled>false</AuthSurchargeEnabled>
+    <DefaultSwiperType>RAMBLER</DefaultSwiperType>
+    <DefaultSyncTime>12</DefaultSyncTime>
+    <DefaultSwiperTypeEditable>true</DefaultSwiperTypeEditable>
+    <SuspendAndResumeEnabled>true</SuspendAndResumeEnabled>
+    <TimeoutIntervalEditable>true</TimeoutIntervalEditable>
+    <TimeoutInterval>30</TimeoutInterval>
+    <DebitEnabled>true</DebitEnabled>
+    <DebitEnabledEditable>true</DebitEnabledEditable>
+    <TipEnabledEditable>true</TipEnabledEditable>
+    <TipEnabled>true</TipEnabled>
+    <TaxEnabled>true</TaxEnabled>
+    <TaxEnabledEditable>true</TaxEnabledEditable>
+    <ShowDeclinedTransEnabled>true</ShowDeclinedTransEnabled>
+    <ShowDeclinedTransEnabledEditable>true</ShowDeclinedTransEnabledEditable>
+    <ShowSyncTimeEnabled>false</ShowSyncTimeEnabled>
+    <ShowSyncTimeEnabledEditable>false</ShowSyncTimeEnabledEditable>
+    <DebugModeEnabled>false</DebugModeEnabled>
+    <RequireTermsAndConditions>false</RequireTermsAndConditions>
+    <GatewayURL>https://testpayments.anywherecommerce.com/merchant</GatewayURL>
+    <TermsAndConditionsURL>http://processor.com/TOC</TermsAndConditionsURL>
+    <DynamicBrandingEnabled>true</DynamicBrandingEnabled>
+
+    <!-- Piyush added -->
+    <RefundEnabled>true</RefundEnabled>
+    <SalelessRefundEnabled>true</SalelessRefundEnabled>
+    <CardRequired>false</CardRequired>
+    <AllowPartialRefunds>true</AllowPartialRefunds>
+    <UseOldStyleRefund>true</UseOldStyleRefund>
+
+    <!-- Added by Parag -->
+    <ChequeEnabledEditable>true</ChequeEnabledEditable>
+    <ChequeEnabled>true</ChequeEnabled>
+    <SignUpEnabled>false</SignUpEnabled>
+    <SendReceiptOptionsEditable>true</SendReceiptOptionsEditable>
+    <SendReceiptOptions>Default</SendReceiptOptions>
+    <ForgotPasswordURL>https://portal.anywherecommerce.com/auth/forgot</ForgotPasswordURL>
+
+    <!-- Added by Parag during multiuser support -->
+    <UserBasedTransactionsOnly>true</UserBasedTransactionsOnly>
+
+    <PortalURLProduction>https://portal.anywherecommerce.com</PortalURLProduction>
+    <DefaultCurrency>USD</DefaultCurrency>
+    <DefaultCurrencyEditable>true</DefaultCurrencyEditable>
+
+    <ChequeColorFormatEditable>true</ChequeColorFormatEditable>
+    <ChequeColorFormat>Color</ChequeColorFormat>
+    <ChequeFileFormatEditable>true</ChequeFileFormatEditable>
+    <ChequeFileFormat>PNG</ChequeFileFormat>
+
+    <ContactlessEnabled>true</ContactlessEnabled>
+    <ContactlessEnabledEditable>true</ContactlessEnabledEditable>
+
+    <FeeCreditEnabledEditable>true</FeeCreditEnabledEditable>>
+    <FeeCreditEnabled>true</FeeCreditEnabled>
+    <FeeTypeCredit>PercentageSubtotal</FeeTypeCredit>
+    <FeeNameCredit>FEE</FeeNameCredit>
+    <FeeRateCredit>3.95</FeeRateCredit>
+
+    <SupportedEntryModes>SWIPE DIP TAP</SupportedEntryModes>
+
+    <!-- Added to allow for custom endpoint mappings in Paydeo project -->
+    <GatewayURLEditable>true</GatewayURLEditable>
+
+    <TaxRateEditable>true</TaxRateEditable>
+    <MasterControllerURL>https://testpayments.anywherecommerce.com/merchant</MasterControllerURL>
+
+    <AllowFirmwareUpdate>false</AllowFirmwareUpdate>
+    <CheckFirmwareOnFirstUse>false</CheckFirmwareOnFirstUse>
+    <EnforceFirmwareCompliance>false</EnforceFirmwareCompliance>
+</TerminalConfiguration>
